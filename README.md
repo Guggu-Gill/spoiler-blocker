@@ -57,7 +57,7 @@ weighted avg       0.75      0.74      0.74    114782
 
 
 AIM
-- reduce False Negatives as much as possible even False Postives increase
+- reduce False Negatives as much as possible even if False Postives can increase its ok.
 - Like reviews which are not spoiler can be blocked but one which are spoiler should be eliminated as much as possible.
 
 
