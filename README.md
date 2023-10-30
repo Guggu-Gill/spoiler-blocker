@@ -27,15 +27,19 @@ Why USE?
 
 3. Results
  
+
 Classification Report:
                precision    recall  f1-score   support
 
            0       0.84      0.80      0.82     84609
            1       0.50      0.58      0.54     30173
-
     accuracy                           0.74    114782
    macro avg       0.67      0.69      0.68    114782
 weighted avg       0.75      0.74      0.74    114782
+
+
+
+
 
 ![af3b29f1-c34c-4baa-aa1b-26c678971496](https://github.com/Guggu-Gill/spoiler-blocker/assets/128667568/37e817e6-06a7-411d-b1a5-4ca16e31bf5d)
 ![7a7a5959-dc53-44ef-aba0-bc1cf6885005](https://github.com/Guggu-Gill/spoiler-blocker/assets/128667568/2da1e9e6-c2c1-4663-8cd7-c700d6fa5ee7)
