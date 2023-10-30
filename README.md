@@ -12,8 +12,20 @@ Why USE?
 - Its better than average of word embeddings cause bigrams are also into consideration while producing embeddings
 - It gives unified 512 dim vector
 
+2. Visulisation of USE
 
-2. Contrastive Learning Deep Model
+![375c9789-5ea0-4745-8df7-210c18a38b98](https://github.com/Guggu-Gill/spoiler-blocker/assets/128667568/42940c28-d091-4ad9-905b-031df92f6c90)
+
+![f0f8ecfd-9221-4e20-9d2e-64f3ca73adae](https://github.com/Guggu-Gill/spoiler-blocker/assets/128667568/18a2a833-7f33-4aa6-a392-0334a07c8e57)
+
+- PCA demonstarte there are lot of non linearlities in embeddings which can be learnt using non linear classifiers line SVM/Deep Neural network
+- Also neighbourhood embeddings demonstarte that both classes are quite similar in high dim embeddings too. so its not easy problem to classify.
+
+
+
+
+
+3. Contrastive Learning Deep Model
 - reviews and plots were embedded using USE embedings
 - It inputs both reviews and plot to measure similarity
 - there is not very very major imbalance problem it can be handled using class weights in keras(balancing loss function).
@@ -30,7 +42,6 @@ Why USE?
 
 Classification Report:
                precision    recall  f1-score   support
-
            0       0.84      0.80      0.82     84609
            1       0.50      0.58      0.54     30173
     accuracy                           0.74    114782
@@ -43,5 +54,9 @@ weighted avg       0.75      0.74      0.74    114782
 
 ![af3b29f1-c34c-4baa-aa1b-26c678971496](https://github.com/Guggu-Gill/spoiler-blocker/assets/128667568/37e817e6-06a7-411d-b1a5-4ca16e31bf5d)
 ![7a7a5959-dc53-44ef-aba0-bc1cf6885005](https://github.com/Guggu-Gill/spoiler-blocker/assets/128667568/2da1e9e6-c2c1-4663-8cd7-c700d6fa5ee7)
+
+
+AIM- reduce False Negatives as much as possible even False Postives increase. Like reviews which are not spoiler can be blocked but one which are spoiler should be eliminated as much as possible.
+
 
 
