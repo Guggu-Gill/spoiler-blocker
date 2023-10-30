@@ -56,7 +56,9 @@ weighted avg       0.75      0.74      0.74    114782
 ![7a7a5959-dc53-44ef-aba0-bc1cf6885005](https://github.com/Guggu-Gill/spoiler-blocker/assets/128667568/2da1e9e6-c2c1-4663-8cd7-c700d6fa5ee7)
 
 
-AIM- reduce False Negatives as much as possible even False Postives increase. Like reviews which are not spoiler can be blocked but one which are spoiler should be eliminated as much as possible.
+AIM
+- reduce False Negatives as much as possible even False Postives increase
+- Like reviews which are not spoiler can be blocked but one which are spoiler should be eliminated as much as possible.
 
 
 
