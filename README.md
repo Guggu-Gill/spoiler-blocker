@@ -37,7 +37,7 @@ Why USE?
 
 ![49b963ef-4d8c-4e42-8864-29c09fa225c4](https://github.com/Guggu-Gill/spoiler-blocker/assets/128667568/53c9a752-4109-40f6-8565-8ae3e2b13e3c)
 
-3. Results
+4. Results
  
 
 Classification Report:
@@ -56,9 +56,10 @@ weighted avg       0.75      0.74      0.74    114782
 ![7a7a5959-dc53-44ef-aba0-bc1cf6885005](https://github.com/Guggu-Gill/spoiler-blocker/assets/128667568/2da1e9e6-c2c1-4663-8cd7-c700d6fa5ee7)
 
 
-AIM
+5. AIM
 - reduce False Negatives as much as possible even if False Postives can increase its ok.
 - Like reviews which are not spoiler can be blocked but one which are spoiler should be eliminated as much as possible.
+- Test with more heavy BERT embeddings
 
 
 
